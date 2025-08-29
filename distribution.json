@@ -13,7 +13,7 @@
       "description": "metropolis Running Minecraft 1.20.1 (Fabric v0.17.2)",
       "icon": "https://discord.com/channels/1407126286731710556/1407126287201599560/1410150497511276544",
       "version": "1.0.0",
-      "address": "beartown.kr",
+      "address": "rendog.kr",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
