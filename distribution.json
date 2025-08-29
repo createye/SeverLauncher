@@ -11,17 +11,17 @@
       "id": "metropolis-1.20.1",
       "name": "metropolis (Minecraft 1.20.1)",
       "description": "metropolis Running Minecraft 1.20.1 (Fabric v0.17.2)",
-      "icon": "https://discord.com/channels/1407126286731710556/1407126287201599560/1410150497511276544",
+      "icon": null,
       "version": "1.0.0",
-      "address": "jahusever.p-e.kr",
+      "address": "rendog.kr",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
-      "autoconnect": true,
+      "mainServer": false,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.17.2",
@@ -30,7 +30,7 @@
           "artifact": {
             "size": 1915305,
             "MD5": "72dd698d701202d46303fc913cfcbf23",
-            "url": "https://github.com/createye/SeverLauncher/blob/master/repo/lib/net/fabricmc/fabric-loader/0.17.2/fabric-loader-0.17.2.jar"
+            "url": "https://createye.github.io/SeverLauncher/repo/lib/net/fabricmc/fabric-loader/0.17.2/fabric-loader-0.17.2.jar"
           },
           "subModules": [
             {
@@ -40,7 +40,7 @@
               "artifact": {
                 "size": 2847,
                 "MD5": "8d682de20fea946b000dc7ce6e7d0086",
-                "url": "https://github.com/createye/SeverLauncher/blob/master/repo/versions/1.20.1-fabric-0.17.2/1.20.1-fabric-0.17.2.json"
+                "url": "https://createye.github.io/SeverLauncher/repo/versions/1.20.1-fabric-0.17.2/1.20.1-fabric-0.17.2.json"
               }
             },
             {
@@ -50,7 +50,7 @@
               "artifact": {
                 "size": 126113,
                 "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
-                "url": "https://github.com/createye/SeverLauncher/blob/master/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+                "url": "https://createye.github.io/SeverLauncher/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
               }
             },
             {
@@ -60,7 +60,7 @@
               "artifact": {
                 "size": 35151,
                 "MD5": "3d63508405f5610fc2ea673ff5471553",
-                "url": "https://github.com/createye/SeverLauncher/blob/master/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+                "url": "https://createye.github.io/SeverLauncher/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
               }
             },
             {
@@ -70,7 +70,7 @@
               "artifact": {
                 "size": 73498,
                 "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
-                "url": "https://github.com/createye/SeverLauncher/blob/master/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+                "url": "https://createye.github.io/SeverLauncher/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
               }
             },
             {
@@ -80,7 +80,7 @@
               "artifact": {
                 "size": 51934,
                 "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
-                "url": "https://github.com/createye/SeverLauncher/blob/master/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+                "url": "https://createye.github.io/SeverLauncher/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
               }
             },
             {
@@ -90,7 +90,7 @@
               "artifact": {
                 "size": 94559,
                 "MD5": "62498ef324bdab15f407d703f7d78d19",
-                "url": "https://github.com/createye/SeverLauncher/blob/master/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+                "url": "https://createye.github.io/SeverLauncher/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
               }
             },
             {
@@ -100,7 +100,7 @@
               "artifact": {
                 "size": 1504156,
                 "MD5": "aa4a43d5b0e9abf4fcb57520ffeb0019",
-                "url": "https://github.com/createye/SeverLauncher/blob/master/repo/lib/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar"
+                "url": "https://createye.github.io/SeverLauncher/repo/lib/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar"
               }
             },
             {
@@ -110,7 +110,7 @@
               "artifact": {
                 "size": 573365,
                 "MD5": "3f4768ac751cac3418266d1d7aa15f55",
-                "url": "https://github.com/createye/SeverLauncher/blob/master/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+                "url": "https://createye.github.io/SeverLauncher/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
               }
             }
           ]
@@ -121,8 +121,21 @@
           "type": "FabricMod",
           "artifact": {
             "size": 2107873,
-            "url": "https://github.com/createye/SeverLauncher/blob/master/servers/metropolis-1.20.1/fabricmods/required/fabric-api-0.92.6+1.20.1.jar",
+            "url": "https://createye.github.io/SeverLauncher/servers/metropolis-1.20.1/fabricmods/required/fabric-api-0.92.6+1.20.1.jar",
             "MD5": "3483560775f416a4c759535b898165a5"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.6+mc1.20.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2726899,
+            "url": "https://createye.github.io/SeverLauncher/servers/metropolis-1.20.1/fabricmods/optionalon/iris-1.7.6+mc1.20.1.jar",
+            "MD5": "45577adb5ab16505572c6ea4b1006e58"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -131,8 +144,11 @@
           "type": "FabricMod",
           "artifact": {
             "size": 7209178,
-            "url": "https://github.com/createye/SeverLauncher/blob/master/servers/metropolis-1.20.1/fabricmods/required/journeymap-1.20.1-5.10.3-fabric.jar",
+            "url": "https://createye.github.io/SeverLauncher/servers/metropolis-1.20.1/fabricmods/optionalon/journeymap-1.20.1-5.10.3-fabric.jar",
             "MD5": "0daacf8f13dd33450a970601cf21d627"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -141,18 +157,53 @@
           "type": "FabricMod",
           "artifact": {
             "size": 564695,
-            "url": "https://github.com/createye/SeverLauncher/blob/master/servers/metropolis-1.20.1/fabricmods/required/koreanpatch-fabric-1.9.0+mc1.20.1.jar",
+            "url": "https://createye.github.io/SeverLauncher/servers/metropolis-1.20.1/fabricmods/required/koreanpatch-fabric-1.9.0+mc1.20.1.jar",
             "MD5": "04dfca134af2ff3f4bb58358bf25ad9f"
           }
         },
         {
-          "id": "de.maxhenkel:voicechat:1.20.1-2.5.35@jar",
+          "id": "me.jellysquid.mods:sodium:0.5.13+mc1.20.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 971552,
+            "url": "https://createye.github.io/SeverLauncher/servers/metropolis-1.20.1/fabricmods/optionalon/sodium-fabric-0.5.13+mc1.20.1.jar",
+            "MD5": "76e0349865f91f315aae087a6e88a84a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.1-2.5.36@jar",
           "name": "Simple Voice Chat",
           "type": "FabricMod",
           "artifact": {
-            "size": 9000433,
-            "url": "https://github.com/createye/SeverLauncher/blob/master/servers/metropolis-1.20.1/fabricmods/required/voicechat-fabric-1.20.1-2.5.35.jar",
-            "MD5": "1fabd9c36128f1d9dbbafcefe06f455d"
+            "size": 7981586,
+            "url": "https://createye.github.io/SeverLauncher/servers/metropolis-1.20.1/fabricmods/required/voicechat-fabric-1.20.1-2.5.36.jar",
+            "MD5": "679d26693b2f5839aec214b0ad2e0ad8"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.5.1.zip",
+          "name": "ComplementaryReimagined_r5.5.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 456328,
+            "url": "https://createye.github.io/SeverLauncher/servers/metropolis-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.5.1.zip",
+            "MD5": "e49c87af1c2bb64337068f6928f06bff",
+            "path": "shaderpacks/ComplementaryReimagined_r5.5.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.5.1.zip",
+          "name": "ComplementaryUnbound_r5.5.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 456332,
+            "url": "https://createye.github.io/SeverLauncher/servers/metropolis-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.5.1.zip",
+            "MD5": "576ef06da170458879f3a03e685d487a",
+            "path": "shaderpacks/ComplementaryUnbound_r5.5.1.zip"
           }
         }
       ]
