@@ -1,10 +1,10 @@
 {
   "$schema": "file:///C:/Users/Administrator/Desktop/cstom/nebulaworkspace/schemas/DistroMetaSchema.schema.json",
   "meta": {
-    "rss": "<LINK TO RSS FEED>",
+    "rss": "<https://github.com/createye/SeverLauncher/blob/master/news.xml>",
     "discord": {
-      "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "clientId": "<1407126286731710556>",
+      "smallImageText": "<Metropolis Sever>",
       "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
     }
   }
