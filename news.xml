@@ -1,0 +1,36 @@
+import datetime
+from rfeed import *
+
+KST = datetime.timezone(datetime.timedelta(hours=9))
+
+item1 = Item(
+    title="첫번째 글",
+    link="http://www.example.com/articles/1",
+    description="첫번째 글에 대한 설명입니다",
+    author="첫번째 작성자",
+    guid=Guid("http://www.example.com/articles/1"),
+    pubDate=datetime.datetime(2024, 8, 10, 8, 58),
+)
+
+item2 = Item(
+    title="두번째 글",
+    link="http://www.example.com/articles/2",
+    description="두번째 글에 대한 설명입니다",
+    author="두번째 작성자",
+    guid=Guid("http://www.example.com/articles/2"),
+    pubDate=datetime.datetime(2024, 8, 10, 8, 59),
+)
+
+items = [item1, item2]
+items.reverse()
+
+feed = Feed(
+    title="예제 RSS 2.0",
+    link="http://www.example.com/rss",
+    description="rfeed로 생성한 RSS 2.0의 예제입니다.",
+    language="ko-KR",
+    lastBuildDate=datetime.datetime.now(tz=KST),
+    items=items,
+)
+
+print(feed.rss())
